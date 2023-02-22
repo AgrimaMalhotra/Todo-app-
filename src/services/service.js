@@ -1,4 +1,4 @@
-const models = require('../database/models');
+const models = require('../../database/models');
 
 const getAllTasks = async () => {
   const tasks = models.Tasks.findAll();
